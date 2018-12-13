@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "Zcoin Official Block Explorer",
+  "title": "TINC Official Block Explorer",
 
-  "address": "liulanqi.zcoin.io",
+  "address": "TINC.heroku.com",
 
   // coin name
-  "coin": "Zcoin",
+  "coin": "TINC",
 
   // coin symbol
-  "symbol": "XZC",
+  "symbol": "TINC",
 
   // logo
   "logo": "/images/logo.png",
@@ -29,9 +29,9 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "zcoindev",
-    "password": "zcoin3xp!0reR",
-    "database": "zcoinexplorer",
+    "user": "TINCdev",
+    "password": "TINC3xp!0reR",
+    "database": "TINCexplorer",
     "address": "localhost",
     "port": 27017
   },
@@ -43,8 +43,8 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 8888,
-    "user": "zcoindev",
+    "port": 26663,
+    "user": "TINCdev",
     "pass": "qwerZ1234Z!"
   },
 
@@ -64,7 +64,7 @@
     "googleplus": false,
     "search": true,
     "movement": true,
-    "zerocoin": true,
+    "zerocoin": false,
     "network": true
   },
 
@@ -77,20 +77,20 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 8888,
-    "blockhash": "eaf57fc934fec6aafb5af21851a9c24a01e490d7b77409fc75d2eeca417a0a09",
-    "txhash": "e80554142d46ef88f18b2a4dc0681c8380523a232739dc77091c6a6c929cb2bc",
-    "address": "a41pkKGRFLXFfcEdWueQ4xN6PZSNeKc2Wk"
+    "blockindex": 26663,
+    "blockhash": "03b4fd2b5130ec6ff9ab0954ce1ecfa9585f91e7cc1f054d4ae76d88d75a7329",
+    "txhash": "4b2c820867f0a42ae02d61a4a6265c136c91465ac1233162631d94e1e9eff146",
+    "address": "SmUeEvtKqQuq5ptdxzz4xUeWBCUcN6eXFW"
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "XZC",
+    "coin": "TINC",
     "exchange": "BTC",
     "enabled": ["bittrex"],
-    "cryptopia_id": "1658",
+    "cryptopia_id": "8888",
     "ccex_key" : "Get-Your-Own-Key",
     "default": "bittrex"
   },
@@ -112,16 +112,16 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "zcoinofficial",
-  "facebook": "zcoinofficial",
-  "googleplus": "zcoinofficial",
+  "twitter": "TINCorg",
+  "facebook": "TINCorg",
+  "googleplus": "TINCorg",
 
   //genesis
-  "genesis_tx": "365d2aa75d061370c9aefdabac3985716b1e3b4bb7c4af4ed54f25e5aaa42783",
-  "genesis_block": "4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233",
+  "genesis_tx": "dd757186f6f93b9292913cc595bbd22a5d91ab34e55bd7a910da623387f16aa9",
+  "genesis_block": "0000aa2e1472bb0f37bb1614af2d9712daa9ef6be0f1d3f107263aaa4fa0f375",
 
   //heavy (enable/disable additional heavy features)
-  "heavy": false,
+  "heavy": true,
 
   //amount of txs to index per address (stores latest n txs)
   "txcount": 100,
@@ -155,10 +155,10 @@
     "a364faMMnKxrCAukxEHrkryR3fQTknekK8": {"label": "bittrex", "type":"primary", "url":"https://www.bittrex.com"},
     "aFLcCCg5v52xZt7PyTtcDL1ikw26f7qAnU": {"label": "btc38", "type":"warning", "url":"http://www.btc38.com/trade_en.html"},
     "aLGEHN9yToheLLZjqf4XP8C7uXG6Y45x7w": {"label": "btc38", "type":"primary", "url":"http://www.btc38.com/trade_en.html"},
-    "aCAgTPgtYcA4EysU4UKC86EQd5cTtHtCcr": {"label": "founder's wallet"},
-    "aHu897ivzmeFuLNB6956X6gyGeVNHUBRgD": {"label": "founder's wallet"},
-    "aQ18FBVFtnueucZKeVg4srhmzbpAeb1KoN": {"label": "founder's wallet"},
-    "a1kCCGddf5pMXSipLVD9hBG2MGGVNaJ15U": {"label": "founder's wallet"},
-    "a1HwTdCmQV3NspP2QqCGpehoFpi8NY4Zg3": {"label": "bounty wallet"}
+    "SmUeEvtKqQuq5ptdxzz4xUeWBCUcN6eXFW": {"label": "founder's wallet"},
+    "Sv9A9XhiZMmfV7go634BuoEi5xG5r1eAhL": {"label": "founder's wallet"},
+    "T8CUPyMeHUbgPCBpykxzcuMofB7nSQAqyp": {"label": "founder's wallet"},
+    "Sx628P7vnU5VWFkBPSzymxDUaFAacbopUA": {"label": "founder's wallet"},
+    "T8z7NFsk7NLdiCuhaKJZC8GhHgqwNaFBWX": {"label": "bounty wallet"}
   }
 }
