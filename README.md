@@ -1,4 +1,4 @@
-Zcoin Block Explorer v0.2.0
+TINC Block Explorer v0.2.0
 ================
 
 A block explorer written in node.js (based on Iquidus Explorer - 1.6.1)
@@ -19,11 +19,11 @@ Enter MongoDB cli:
 
 Create databse:
 
-    > use zcoinexplorer
+    > use TINCexplorer
 
 Create user with read/write access:
 
-    > db.createUser( { user: "zcoindev", pwd: "zcoin3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "TINCdev", pwd: "TINC3xp!0reR", roles: [ "readWrite" ] } )
 
 *note: If you're using mongo shell 2.4.x, use the following to create your user:
 
@@ -31,15 +31,15 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/zcoinofficial/blockexplorer
+    git clone https://github.com/TINCorg/TINCBlockExplorer
 
 ### Install node modules
 
-    cd blockexplorer && npm install --production
+    cd TINCBlockExplorer && npm install --production
 
 ### Configure
 
-    cp ./settings.json.mainnet ./settings.json
+    cp ./settings.json.zh ./settings.json
 
 *Make required changes in settings.json*
 
